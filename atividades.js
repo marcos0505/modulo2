@@ -1,4 +1,4 @@
-//Calculadora de media 5 notas
+// Calculadora de media 5 notas
 
 // const input = require("readline-sync");
 
@@ -21,16 +21,26 @@
 
 //contador de letras
 
-var ler = 'a turma do backend do senac, e massa!';
-var contador = 'aturmadobackenddosenacemassa'
+// var ler = 'A turma do backend do senac, e massa!';
 
-console.log('A frase é:' + ler);
-console.log('A qunatidade de letras é:' + contador.length);
+// console.log('A frase é:' + ler, + ler.length);
+//console.log('A qunatidade de letras é:' + contador.length);
 
 //Inversor de letras
 
-let curso = 'desenvolvimanto web';
-let invert = curso.split('').reverse().join('');
+// let curso = 'desenvolvimanto web';
+// let invert = curso.split('').reverse().join('');
 
-console.log('Estou estudando: ' + curso);
-console.log('A frase invertida é: ' + invert);
+// console.log('Estou estudando: ' + curso);
+// console.log('A frase invertida é: ' + invert);
+
+//let curso = 'desenvolvimanto web';
+
+//console.log('A frase é: ' + curso + ' A frase invertida é: ' + curso.split('').reverse().join(''));
+
+const input = require("readline-sync");
+
+const cpf = input.question( "Digite seu CPF: ");
+
+
+console.log("O CPF digitado foi: " + cpf + " A quntidade de caracteres do cpf é: " + cpf.length);
